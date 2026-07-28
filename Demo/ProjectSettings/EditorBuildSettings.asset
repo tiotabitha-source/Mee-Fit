@@ -5,7 +5,26 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
+  - enabled: 1
+    path: Assets/Skin Tone.unity
+    guid: f92dd1793550e6846997f3013b538b54
+  - enabled: 1
+    path: Assets/Hair.unity
+    guid: f53a344e79c47584e8e5bee6fd9b079b
+  - enabled: 1
+    path: Assets/Bottoms.unity
+    guid: 64a05d326f5565f45a6d214fd54c37e7
+  - enabled: 1
+    path: Assets/Shoes.unity
+    guid: 747d68c0af6477444b6cfc5240e605e6
+  - enabled: 1
+    path: Assets/Welcome Screen.unity
+    guid: 202f9e082c481a54897e29d2882761d0
+  - enabled: 1
+    path: Assets/Top.unity
+    guid: 6ec29ba3ca868bd48a32bac8444ed53b
   m_configObjects: {}
+  m_UseUCBPForAssetBundles: 0
