@@ -2178,8 +2178,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1617622261}
-        m_TargetAssemblyTypeName: ContinueeeeButton, Assembly-CSharp
-        m_MethodName: bottomsScene
+        m_TargetAssemblyTypeName: ContinueeeeeButton, Assembly-CSharp
+        m_MethodName: shoesScene
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2236,7 +2236,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1617622256}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d48de119f5baa644882c11af0ca00021, type: 3}
+  m_Script: {fileID: 11500000, guid: d31ccb82b0a57c3408f9831191a667b3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1776398939
