@@ -1,8 +1,7 @@
 using UnityEngine;
 
-public class ShoesUIDriver : MonoBehaviour {
+public class ReviewUIDriver : MonoBehaviour {
 
-    public GameObject option1;
     public GameObject skinTone1;
     public GameObject skinTone2;
     public GameObject skinTone3;
@@ -11,6 +10,7 @@ public class ShoesUIDriver : MonoBehaviour {
     public GameObject hair3;
     public GameObject top1;
     public GameObject bottoms1;
+    public GameObject shoes1;
 
     void Start() {
         if (Attributes.instance.skinTone == "Option 1") {
@@ -37,10 +37,8 @@ public class ShoesUIDriver : MonoBehaviour {
         if (Attributes.instance.bottoms == "Option 1") {
             bottoms1.SetActive(true);
         }
-    }
-
-    public void changeShoes1() {
-        Attributes.instance.ChangeShoes("Option 1");
-        option1.SetActive(true);
+        if (Attributes.instance.shoes == "Option 1") {
+            shoes1.SetActive(true);
+        }
     }
 }

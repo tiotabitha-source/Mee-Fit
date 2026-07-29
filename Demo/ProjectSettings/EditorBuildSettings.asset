@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/Scenes/SampleScene.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
   - enabled: 1
+    path: Assets/Review.unity
+    guid: c0f59c145fae8a24cb5781cf4c1ab95c
+  - enabled: 1
     path: Assets/Skin Tone.unity
     guid: f92dd1793550e6846997f3013b538b54
   - enabled: 1
