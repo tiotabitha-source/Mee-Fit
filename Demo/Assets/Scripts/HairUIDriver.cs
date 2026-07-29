@@ -9,7 +9,6 @@ public class HairUIDriver : MonoBehaviour {
     //     if (Attributes.instance.skinTone == "Option 1") {
             
     //     }
-    }
     public void changeHair1() {
         Attributes.instance.ChangeHair("Option 1");
         option1.SetActive(true);
