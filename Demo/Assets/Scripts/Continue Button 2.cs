@@ -5,22 +5,15 @@ using UnityEngine.SceneManagement;
 
 public class ContinueeButton : MonoBehaviour
 {
+    public AudioSource buttonSound;
 
     public void hairScene() {
-        SceneManager.LoadScene("Hair");
+        StartCoroutine(ButtonSoundDelayy());
     }
 
-    
-    // // Start is called before the first frame update
-    // void Start()
-    // {
-        
-    // }
-
-    // // Update is called once per frame
-    // void Update()
-    // {
-        
-    // }
-
+    IEnumerator ButtonSoundDelayy() {
+        buttonSound.Play();
+        yield return new WaitForSeconds(0.5f);
+        SceneManager.LoadScene("Hair");
+    }
 }

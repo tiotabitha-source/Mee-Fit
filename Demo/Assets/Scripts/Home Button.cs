@@ -5,22 +5,15 @@ using UnityEngine.SceneManagement;
 
 public class HomeButton : MonoBehaviour
 {
+    public AudioSource buttonSound;
 
     public void returnBack() {
-        SceneManager.LoadScene("Skin Tone");
+        StartCoroutine(ButtonSoundDelayyyyyyy());
     }
 
-    
-    // // Start is called before the first frame update
-    // void Start()
-    // {
-        
-    // }
-
-    // // Update is called once per frame
-    // void Update()
-    // {
-        
-    // }
-
+    IEnumerator ButtonSoundDelayyyyyyy() {
+        buttonSound.Play();
+        yield return new WaitForSeconds(0.5f);
+        SceneManager.LoadScene("Skin Tone");
+    }
 }

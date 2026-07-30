@@ -5,22 +5,15 @@ using UnityEngine.SceneManagement;
 
 public class ContinueeeeButton : MonoBehaviour
 {
+    public AudioSource buttonSound;
 
     public void bottomsScene() {
-        SceneManager.LoadScene("Bottoms");
+        StartCoroutine(ButtonSoundDelayyyy());
     }
 
-    
-    // // Start is called before the first frame update
-    // void Start()
-    // {
-        
-    // }
-
-    // // Update is called once per frame
-    // void Update()
-    // {
-        
-    // }
-
+    IEnumerator ButtonSoundDelayyyy() {
+        buttonSound.Play();
+        yield return new WaitForSeconds(0.5f);
+        SceneManager.LoadScene("Bottoms");
+    }
 }
