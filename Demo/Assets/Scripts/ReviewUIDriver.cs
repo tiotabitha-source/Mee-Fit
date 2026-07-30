@@ -11,8 +11,11 @@ public class ReviewUIDriver : MonoBehaviour {
     public GameObject top1, top2, top3, top4;
     public GameObject bottoms1, bottoms2, bottoms3, bottoms4;
     public GameObject shoes1, shoes2, shoes3, shoes4;
+    public AudioSource Checkoutmeefitsound;
 
     void Start() {
+        Checkoutmeefitsound.Play();
+
         if (Attributes.instance.skinTone == "Option 1") {
             skinTone1.SetActive(true);
             skinTone2.SetActive(false);
